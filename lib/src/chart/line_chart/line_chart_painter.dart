@@ -70,7 +70,7 @@ class LineChartPainter extends AxisChartPainter<LineChartData> {
       canvasWrapper.saveLayer(
         Rect.fromLTWH(
           0,
-          -40,
+          0,
           canvasWrapper.size.width + 40,
           canvasWrapper.size.height + 40,
         ),
